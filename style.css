@@ -129,3 +129,25 @@ button[type="submit"] {
     cursor: pointer;
     left: 18%;
 }
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        height: 200px;
+    }
+
+    button {
+        width: 100px;
+        height: 30px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    button[type="submit"] {
+        padding: 4px 30px;
+        left: 34%;
+    }
+}
